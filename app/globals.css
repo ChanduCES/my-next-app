@@ -25,3 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.flex-center {
+  @apply flex justify-center items-center;
+}
