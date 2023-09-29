@@ -1,3 +1,4 @@
+import { employeesMock } from "@/constants/EmployeesMock";
 import EmployeePage from "./employees/page";
 
 export default function Home() {
@@ -6,7 +7,7 @@ export default function Home() {
       <main className="w-full flex-center">
         <p>Employees</p>
       </main>
-      <EmployeePage />
+      <EmployeePage employees={employeesMock} />
     </>
   );
 }
